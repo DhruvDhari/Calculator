@@ -35,3 +35,26 @@
     cursor: pointer;
     margin: 10px;
 }
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    
+    box-shadow: 0px 0px 20px #4a628c17,0px 0px 20px #3a4452;
+}
+
+form input.equal{
+    width: 145px;
+}
+
+form input.operator{
+    color: #33ffd8;
+}
+
