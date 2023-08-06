@@ -58,3 +58,6 @@ form input.operator{
     color: #33ffd8;
 }
 
+input#no_display{
+    display.value=" ";
+}
